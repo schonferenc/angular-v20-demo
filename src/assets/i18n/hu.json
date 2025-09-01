@@ -1,0 +1,11 @@
+{
+    "components": {
+        "header": {
+            "title": "Angular@20 Demó",
+            "nav": {
+                "home": "Kezdőlap",
+                "usersList": "Felhasználók listája"
+            }
+        }
+    }
+}

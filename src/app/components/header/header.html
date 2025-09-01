@@ -1,0 +1,14 @@
+<header *transloco="let t">
+  <h1>{{ t('components.header.title') }}</h1>
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="/">{{ t('components.header.nav.home') }}</a>
+      </li>
+      <li>
+        <a routerLink="/users">{{ t('components.header.nav.usersList') }}</a>
+      </li>
+    </ul>
+    <app-lang-switcher></app-lang-switcher>
+  </nav>
+</header>

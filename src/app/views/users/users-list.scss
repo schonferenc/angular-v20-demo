@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .spinner {
+    color: #1976d2;
+    font-weight: bold;
+  }
+
+  .error {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+}

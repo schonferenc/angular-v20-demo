@@ -1,0 +1,13 @@
+<ul>
+  @if (error()) {
+  <li class="error">⚠️ {{ error() }}</li>
+  } @else if (loading()) {
+  <li>
+    <span class="spinner">Loading...</span>
+  </li>
+  } @else { @for (user of users(); track user.id) {
+  <li>{{ user.name }} ({{ user.email }})</li>
+  } @empty {
+  <li>No users found.</li>
+  } }
+</ul>

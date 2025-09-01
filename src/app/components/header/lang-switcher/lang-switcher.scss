@@ -1,0 +1,19 @@
+.language-switcher {
+  button {
+    background: transparent;
+    border: none;
+    color: v.$color-primary-contrast;
+    cursor: pointer;
+    font-size: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      font-weight: bold;
+      text-decoration: underline;
+      cursor: default;
+    }
+  }
+}

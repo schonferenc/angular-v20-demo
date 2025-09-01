@@ -1,0 +1,11 @@
+{
+    "components": {
+        "header": {
+            "title": "Angular@20 Demo",
+            "nav": {
+                "home": "Home",
+                "usersList": "Users List"
+            }
+        }
+    }
+}
